@@ -19,8 +19,9 @@ function resetGame() {
   highscore.textContent = highScoreAmount;
 
   //the computer picks a random number
-  computerGuess = Math.floor(Math.random() * 10 + 1);
-  computerNumber.textContent = computerGuess;
+  // computerGuess = Math.floor(Math.random() * 10 + 1);
+  computerGuess = Math.floor(Math.random() * 101);
+  // computerNumber.textContent = computerGuess;
   //I type a number into the box and push check
 }
 
